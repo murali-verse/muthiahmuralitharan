@@ -11,7 +11,7 @@ const projects = [
     description: "NLP project using TF-IDF Vectorization for text analysis and classification.",
     image: project1,
     tags: ["Python", "NLP", "TF-IDF", "Machine Learning"],
-    github: "https://github.com/murali-verse/NLP-Project-Using-TF-IDF-Vectorization",
+    github: "https://github.com/murali-verse/NASA-Space-App-Challenge",
   },
   {
     title: "IPL Winner Predictor",
