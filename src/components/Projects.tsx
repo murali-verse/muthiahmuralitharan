@@ -8,7 +8,7 @@ import project3 from "@/assets/project-3.jpg";
 const projects = [
   {
     title: "NASA Space App",
-    description: "NLP project using TF-IDF Vectorization for text analysis and classification.",
+    description: "Classification of exoplanet and non-exoplanet using machine learning techniques.",
     image: project1,
     tags: ["Python", "NLP", "TF-IDF", "Machine Learning"],
     github: "https://github.com/murali-verse/NASA-Space-App-Challenge",
