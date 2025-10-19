@@ -23,13 +23,13 @@ const Hero = () => {
       <div className="container mx-auto px-6 z-10 text-center">
         <div className="animate-fade-in">
           <h1 className="text-6xl md:text-8xl font-bold mb-6">
-            <span className="text-gradient">Your Name</span>
+            <span className="text-gradient">Muthiah Muralitharan U</span>
           </h1>
           <p className="text-2xl md:text-3xl text-muted-foreground mb-8">
-            Full Stack Developer & Creative Problem Solver
+            Aspiring MLOps Engineer & AI Enthusiast
           </p>
           <p className="text-lg md:text-xl text-foreground/80 mb-12 max-w-2xl mx-auto">
-            Building elegant solutions to complex problems with modern technologies
+            2nd Year AI&DS Student at Francis Xavier Engineering College, passionate about Machine Learning and DevOps
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
             <Button 

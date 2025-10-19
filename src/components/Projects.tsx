@@ -7,22 +7,25 @@ import project3 from "@/assets/project-3.jpg";
 
 const projects = [
   {
-    title: "Analytics Dashboard",
-    description: "A comprehensive data visualization platform with real-time analytics and interactive charts.",
+    title: "NASA Space App",
+    description: "NLP project using TF-IDF Vectorization for text analysis and classification.",
     image: project1,
-    tags: ["React", "TypeScript", "D3.js"],
+    tags: ["Python", "NLP", "TF-IDF", "Machine Learning"],
+    github: "https://github.com/murali-verse/NLP-Project-Using-TF-IDF-Vectorization",
   },
   {
-    title: "E-Commerce Platform",
-    description: "Full-featured online store with payment integration and inventory management.",
+    title: "IPL Winner Predictor",
+    description: "Machine learning model to predict IPL match winners using Random Forest Classifier.",
     image: project2,
-    tags: ["Next.js", "Stripe", "PostgreSQL"],
+    tags: ["Python", "Random Forest", "Scikit-learn", "Data Analysis"],
+    github: "https://github.com/murali-verse/IPL-Winner-Predictor-Using-Random-Forest-Classifier",
   },
   {
-    title: "Social Media App",
-    description: "Modern social networking application with real-time messaging and content sharing.",
+    title: "Article Recommendation System",
+    description: "Content-based recommendation system using NLP techniques and TF-IDF Vectorization.",
     image: project3,
-    tags: ["React Native", "Firebase", "Node.js"],
+    tags: ["Python", "NLP", "Recommendation System", "TF-IDF"],
+    github: "https://github.com/murali-verse/NLP-Project-Using-TF-IDF-Vectorization",
   },
 ];
 
@@ -66,13 +69,14 @@ const Projects = () => {
                   ))}
                 </div>
                 <div className="flex gap-3">
-                  <Button size="sm" variant="outline" className="flex-1">
+                  <Button 
+                    size="sm" 
+                    variant="outline" 
+                    className="flex-1"
+                    onClick={() => window.open(project.github, '_blank')}
+                  >
                     <Github className="w-4 h-4 mr-2" />
                     Code
-                  </Button>
-                  <Button size="sm" className="flex-1">
-                    <ExternalLink className="w-4 h-4 mr-2" />
-                    Live
                   </Button>
                 </div>
               </div>

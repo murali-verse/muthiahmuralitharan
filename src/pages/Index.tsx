@@ -14,7 +14,7 @@ const Index = () => {
       <Contact />
       
       <footer className="py-8 text-center text-muted-foreground border-t border-border">
-        <p>© 2024 Your Name. Built with React & Tailwind CSS</p>
+        <p>© 2024 Muthiah Muralitharan U. Built with React & Tailwind CSS</p>
       </footer>
     </div>
   );

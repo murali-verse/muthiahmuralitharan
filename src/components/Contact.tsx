@@ -17,15 +17,19 @@ const Contact = () => {
           </p>
           
           <div className="flex flex-wrap gap-4 justify-center mb-8">
-            <Button size="lg" className="glow-effect">
+            <Button 
+              size="lg" 
+              className="glow-effect"
+              onClick={() => window.location.href = 'mailto:muthiah7123@gmail.com'}
+            >
               <Mail className="w-5 h-5 mr-2" />
-              hello@example.com
+              muthiah7123@gmail.com
             </Button>
           </div>
           
           <div className="flex gap-6 justify-center">
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/muthiah-muralitharan-u-37a426314" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -33,20 +37,12 @@ const Contact = () => {
               <Linkedin className="w-6 h-6" />
             </a>
             <a 
-              href="https://github.com" 
+              href="https://github.com/murali-verse" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
             >
               <Github className="w-6 h-6" />
-            </a>
-            <a 
-              href="https://twitter.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-primary transition-colors"
-            >
-              <Twitter className="w-6 h-6" />
             </a>
           </div>
         </Card>

@@ -8,19 +8,18 @@ const About = () => {
         
         <div className="space-y-6 text-lg text-foreground/90">
           <p className="animate-fade-in">
-            I'm a passionate developer with a love for creating beautiful, functional web applications. 
-            With expertise in modern frameworks and a keen eye for design, I transform ideas into reality.
+            I'm a passionate AI & Data Science student currently in my 2nd year at Francis Xavier Engineering College. 
+            My goal is to become an MLOps Engineer, bridging the gap between machine learning development and production deployment.
           </p>
           
           <p className="animate-fade-in" style={{ animationDelay: "0.1s" }}>
-            My journey in tech started with curiosity and has evolved into a career dedicated to 
-            crafting exceptional user experiences. I believe in writing clean, maintainable code 
-            and staying current with the latest industry trends.
+            My journey in tech combines deep learning, natural language processing, and modern DevOps practices. 
+            I believe in building scalable ML systems and maintaining robust data pipelines that deliver real-world impact.
           </p>
           
           <p className="animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            When I'm not coding, you'll find me exploring new technologies, contributing to open-source 
-            projects, or sharing knowledge with the developer community.
+            When I'm not training models or optimizing pipelines, you'll find me exploring new ML frameworks, 
+            contributing to open-source projects, and staying current with the latest developments in AI and MLOps.
           </p>
         </div>
       </div>
